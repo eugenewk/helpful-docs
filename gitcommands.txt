@@ -1,8 +1,18 @@
 Git cmd commands
 
-Repository setup:
+Managing remotes: https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+
+git remote
+	-v #shows URLs for remote servers 
+git remote add [name] [URL] #adds the repo at the URL to the list with the name specified
+git fetch [name/URL] #pulls everything from the origin to local machine
+
+Repository setup: https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
+
+Open cmd, navigate to wherever you want the code, then enter:
 
 git clone "https://github.com/user/repo" #clones repo to local drive
 git log #shows commit history
 	-p #shows differences
-	-[some number] #shows only last number
+	-[some number] #shows only last number of commits
+
