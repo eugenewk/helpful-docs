@@ -1,0 +1,8 @@
+Git cmd commands
+
+Repository setup:
+
+git clone "https://github.com/user/repo" #clones repo to local drive
+git log #shows commit history
+	-p #shows differences
+	-[some number] #shows only last number
